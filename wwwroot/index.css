@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin: 8px;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+#input_area {
+  text-align: left;
+  width: 80%;
+  height: 320px;
+  background-color: transparent;
+  border: 3px solid skyblue;
+  outline-color: deepskyblue;
+  outline-width: 3px;
+}
+#move {
+  z-index: -1;
+  opacity: 0.3;
+  font-size: 200px;
+  position: absolute;
+  top: 0;
+}
+button {
+  width: 200px;
+  height: 45px;
+  margin: 3px;
+  font-weight: bold;
+  border-radius: 3px;
+  border-color: skyblue;
+}
+#light_and_dark {
+  width: 100%;
+  text-align: right;
+}
+#light_btn,#dark_btn {
+  width: 40px;
+  height: 24px;
+  border-radius: 20px;
+  border-color: skyblue;
+  background-color: transparent;
+}
+#explain_mode {
+  accent-color: blue;
+}

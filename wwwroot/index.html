@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Emoji 翻訳ツール Emoji Translation" />
+  <title>Emoji 翻訳ツール</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+<div id="move"></div>
+<div id="light_and_dark">
+  <button type="button" id="light_btn">🌞</button>
+  <button type="button" id="dark_btn">🌛</button>
+</div>
+<h1>Emoji翻訳ツール🤖</h1>
+<div>
+<label for="explain_mode">説明モード</label>
+<input type="checkbox" id="explain_mode">
+<br/>
+<label for="explain_mode">(絵文字キーワードの直後に翻訳を入れます)</label>
+</div>
+<button type="button" id="to_emoji_btn">name => emoji<br/>(crab => 🦀)</button>
+<button type="button" id="to_name_btn">emoji => name<br/>(🦀 => (*crab*))</button>
+<button type="button" id="to_jp_name_btn">emoji => JP name<br/>(🦀 => (*蟹*))</button>
+<label for="input_area">INPUT</label>
+<textarea id="input_area" autofocus></textarea>
+<br/>
+<span>UnicodeコンソーシアムのFull Emoji List/Version15.1を利用しています。</span>
+<br/>
+<a href="https://unicode.org/emoji/charts/full-emoji-list.html">Unicode Consortium Full Emoji List v15.1</a>
+<br/>
+<script type="module" src="./index.js"></script>
+</body>
+
+</html>
